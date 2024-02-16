@@ -90,6 +90,20 @@ img {
   overflow: hidden;
 }
 
+.htplay{
+  
+  padding: 3rem;
+  text-align: justify;
+}
+.htp__play{
+  
+  padding: 1rem;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  border: 0;
+}
+
 /*=============== HEADER & NAV ===============*/
 
 .header{
@@ -291,6 +305,14 @@ img {
 
 .home__button:hover{
   filter: drop-shadow(0 4px 24px hsla(185, 100%, 48%, .6));
+}
+
+.li__roadmap{
+  text-align: left;
+  display: inline-grid;
+  position: relative;
+  place-items: right;
+  transition: filter .4s;
 }
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */

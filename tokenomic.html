@@ -5,13 +5,18 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
       <!--=============== FAVICON ===============-->
-      <link rel="shortcut icon" href="assets/img/logoPCSweb.png" type="image/x-icon">
+      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
 
       <!--=============== REMIXICONS ===============-->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.css">
 
       <!--=============== CSS ===============-->
       <link rel="stylesheet" href="assets/css/styles.css">
+      <link rel="stylesheet" href="assets/css/token.css">
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <script src="assets/js/jquery.drawDoughnutChart.js"></script>
+        <script src="assets/js/token.js"></script>
+
 
       <title>Pieces Network - Play to Earn</title>
    </head>
@@ -58,44 +63,52 @@
 
          </nav>
       </header>
-
-      <!--==================== MAIN ====================-->
-      <main class="main">
-         <!--==================== HOME ====================-->
-         <section class="home">
-            <div class="home__container">
-               <img src="assets/img/home-point.png" alt="image" class="home__points">
-               <img src="assets/img/home-shadow.png" alt="image" class="home__shadow">
-               <img src="assets/img/home-moon.png" alt="image" class="home__moon">
-               <img src="assets/img/home-trees.png" alt="image" class="home__tree">
-               <img src="assets/img/home-pumpkin.png" alt="image" class="home__pumpkin">
-               <img src="assets/img/home-stones.png" alt="image" class="home__stone">
-               <img src="assets/img/home-grass.png" alt="image" class="home__grass">
-
-               <div class="home__titles">
-                  <h2 class="home__subtitle">"Simple and Affordable Solana Mining Game"</h2>
-                  <h1 class="home__title">PIECES NETWORK</h1>
-               </div>
+      
+      <section class="home">
+        <div class="home__container">
+            <img src="assets/img/home-point.png" alt="image" class="home__points">
+            <img src="assets/img/home-shadow.png" alt="image" class="home__shadow">
+            <img src="assets/img/home-moon.png" alt="image" class="home__moon">
+            <img src="assets/img/home-trees.png" alt="image" class="home__tree">
+            <img src="assets/img/home-pumpkin.png" alt="image" class="home__pumpkin">
+            <img src="assets/img/home-stones.png" alt="image" class="home__stone">
+            <img src="assets/img/home-grass.png" alt="image" class="home__grass">
+ 
+            <div class="home__titles">
+               <h2 class="home__subtitle">"Simple and Affordable Solana Mining Game"</h2>
+               <h1 class="home__title">PIECES NETWORK</h1>
             </div>
-
-            <div class="home__data">
-               <p class="home__description">
-                  Dive into 'Pieces Network,' the ultimate Solana mining game designed for savvy gamers seeking both fun and profits. This simple and affordable platform provides a seamless blend of entertainment and financial gains. Join now to turn your gaming skills into a lucrative venture, where each move propels you toward digital wealth. Pieces Network – where gaming meets financial empowerment for the modern youth.
-               </p>
-
-               <a href="howtoplay.html" class="home__button">
-                  <img src="assets/img/button.svg" alt="">
-                  <span>CLICK HERE</span>
-               </a>
+        </div>
+ 
+        <div class="home__data">
+            <p class="home__description">
+               Dive into 'Pieces Network,' the ultimate Solana mining game designed for savvy gamers seeking both fun and profits. This simple and affordable platform provides a seamless blend of entertainment and financial gains. Join now to turn your gaming skills into a lucrative venture, where each move propels you toward digital wealth. Pieces Network – where gaming meets financial empowerment for the modern youth.
+            </p>
+            
+            <div class="home__button">
+                <div id="doughnutChart" class="chart"></div>
             </div>
+            
+        </div>
 
-         </section>
-      </main>
+        
+
+        
+              
+        
+
+      </section>
+
+      
+
+      
+
+      
 
       <!--=============== GSAP ===============-->
       <script src="assets/js/gsap.min.js"></script>
 
       <!--=============== MAIN JS ===============-->
       <script src="assets/js/main.js"></script>
-   </body>
+    </body>
 </html>
