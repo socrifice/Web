@@ -104,6 +104,37 @@ img {
   border: 0;
 }
 
+.social-icons {
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+  gap: 20px;
+}
+
+.social-icon {
+  font-size: 36px; /* Adjust the font size as needed */
+  color: #fff; /* Adjust the color as needed */
+  text-decoration: none;
+}
+
+.yt__play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem; /* Adjust the margin as needed */
+}
+
+/* Make the video responsive */
+.yt__play iframe {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Add hover effect if desired */
+.social-icon:hover {
+  color: #00bcd4; /* Change the hover color as needed */
+}
+
 /*=============== HEADER & NAV ===============*/
 
 .header{
