@@ -452,3 +452,32 @@ img {
   }
 }
 
+.footer {
+   position: relative;
+   bottom: 0;
+   width: 100%;
+   background-color: #f8f8f8; /* Adjust the background color as needed */
+   padding: 10px 0; /* Increase padding for better spacing on larger screens */
+   text-align: center;
+   border-top: 1px solid #ddd; /* Add a border for separation */
+}
+
+.footer__links {
+   display: flex;
+   justify-content: center;
+}
+
+.footer__link {
+   margin: 0 5px;
+   color: #333; /* Adjust the color as needed */
+   text-decoration: none;
+   font-weight: bold;
+   font-size: 14px;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 600px) {
+   .footer__link {
+      font-size: 10px; /* Reduce font size on smaller screens */
+   }
+}
